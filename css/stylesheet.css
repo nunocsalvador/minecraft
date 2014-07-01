@@ -1,0 +1,206 @@
+/*
+ * Stylesheet for Minecraft Simbas Site
+ *
+ */
+
+
+
+/* General Stilings */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/*h1,h2,h3 {
+    margin:0;
+}*/
+
+
+/* Header Stilings */
+
+.header img {
+    width: 100%;
+    height: 170px;
+    background: url(../img/logo_background.jpg) repeat;
+}
+
+.header img a {
+    margin-bottom:0;
+}
+
+.header .navigation {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+}
+
+.header .navigation ul{
+    display: table-row;
+}
+.header .navigation li {
+    display: table-cell;
+    margin: 0;    
+}
+
+.header .navigation li a {
+    display:block;
+    text-align:center;
+    
+    border: 1px solid black;
+    padding: 1em;
+    background-color: grey;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.header .navigation li a:hover, .header .navigation li a.selected {
+    background-color: black;
+}
+
+
+
+/* Body/Content Page Stilings */
+
+.main_content {
+    width: 70%;
+    margin: auto;
+    position:relative;
+    background-color:white;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.topic {
+    padding: 0.5em;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    background-color: orange;
+    margin-top:0;
+    margin-bottom: 0;
+    box-shadow: 4px 4px 1px #888888;
+}
+
+.news {
+    margin-top: 1em;
+}
+
+.news .news_title {
+    text-align: center;
+    font-size: 1em;
+    border: 1px solid black;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #08E6FF;
+    margin: 0;
+}
+
+.news .news_content {
+    text-align: justify;
+    font-size: 1em;
+    border: 1px solid black;
+    border-top: none;
+}
+
+.news .news_content p {
+    margin: 0;
+    padding: 1em 0.5em 1em 0.5em;
+}
+
+.team_contacts {
+    border: 1px solid black;
+    border-radius: 0.5em;
+    margin-top: 1em;
+    
+    font-size: 2em;
+}
+
+.team_contacts ul {
+    list-style-image: url(../img/enderman_icon.png);
+    list-style-position: inside; 
+}
+
+.team_contacts ul li * {
+    display: inline-block;
+    
+    font-weight: bold;
+}
+
+.team_contacts li .pointer {
+    width: 0; 
+	height: 0; 
+	border-top: 0.3em solid transparent;
+	border-bottom: 0.3em solid transparent;
+	
+	border-left: 1.5em solid purple;
+}
+
+.team_contacts li .email {
+    font-style: italic;
+}
+
+.gallery {
+    margin-top: 1em;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.gallery td {
+    text-align: center;
+}
+
+.team {
+    margin-top: 1em;
+}
+
+.team_players_avatars {
+    border: 1px dashed black;
+    border-radius: 0.5em;
+}
+
+.team_players_avatars ul {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+}
+
+.team_players_avatars li {
+    display: inline-block;
+    margin-left: 1em;
+    text-align: center;
+}
+
+.team_players_avatars li:nth-child(1) {
+    margin-left: 0;
+}
+
+.team_players_descriptions {
+    margin-top: 1em;
+}
+
+.player_nickname {
+    font-weight: bolder;
+}
+
+/* Footer Stilings */
+.footer {
+    margin-top: 1em;
+    border-top: 1px solid black;
+    background: url(../img/logo_background.jpg) repeat;
+}
+
+.footer p, .footer img {
+    display: inline;
+}
+
+.footer p {
+    font-size: 1em;
+    font-family: 'Press Start 2P', sans-serif;
+    color: white;
+    margin: 0;
+}
+
